@@ -15,6 +15,8 @@ The purpose of this repository is to provide example code to demonstrate how an 
 
 This script queries the public IP that is visible for the machine, even if it is behind a NAT by connecting to a service "myip" on the api endpoint https://sayan-tech-api-py.azurewebsites.net/api/
 
+The code for the API endpoint is included in the folder `myip` and can be deployed on Azure using Azure Functions.
+
 The ip is thereafter updated to the A record for the DNS entry indicated in the dns_client api call.
 
 Key files:
