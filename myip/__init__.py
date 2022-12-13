@@ -1,3 +1,9 @@
+"""
+Created on Sun Aug 7 2022
+
+@author: Sayan A Ghosh
+"""
+
 import logging
 
 import azure.functions as func
